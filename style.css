@@ -1,11 +1,19 @@
 /* General section Start */
 
+.separator {
+  padding: 3em 0;
+}
+
 .float-left {
   float: left;
 }
 
-.text-black {
-  color: black;
+.black-text {
+  color: #333;
+}
+
+.white-text {
+  color: #fff;
 }
 
 .block-element {
@@ -287,6 +295,39 @@ section.more-book a {
   padding: 10px;
 }
 
+section.advertisment {
+  background-color: #595959;
+  text-align: center;
+  padding: 2em 4em;
+  border-radius: 10px;
+}
+
+section.advertisment header {
+  font-size: 36px;
+}
+
+section.advertisment h2 {
+  font-size: 44px;
+}
+
+section.advertisment p {
+  padding: 1em 0;
+  display: block;
+  font-size: 23px;
+}
+
+section.advertisment button {
+  font-size: 1em;
+  padding: 0.75em 1em;
+  border-radius: 10px;
+  margin: 1em 0;
+}
+
+section.advertisment span:last-child {
+  font-size: 0.5em;
+  display: block;
+}
+
 /* PERSON OF THE WEEK SECTION START */
 .person-of-the-week {
   color: #656565;
@@ -314,20 +355,20 @@ section.person-of-the-week h5 {
 
 /* PERSON OF THE WEEK SECTION END */
 
-article.community-article  {
-  color: #333
+article.community-article {
+  color: #333;
 }
 
 article.community-article img {
   margin-right: 2em;
 }
 
-article.community-article  p {
-  font-size: 20px;  
+article.community-article p {
+  font-size: 20px;
 }
 
 article.community-article a {
-  text-decoration: none; 
+  text-decoration: none;
 }
 
 article.community-article div {
