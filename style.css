@@ -100,7 +100,6 @@ main {
   display: flex;
   position: relative;
   justify-content: center;
-  margin-top: 50px;
 }
 
 .floating-text {
@@ -113,13 +112,14 @@ main {
   background: black;
   display: inline;
   box-shadow: 0 80px 60px -20px rgb(0, 0, 0);
+  top: 50px;
 }
 
 .right-floating {
   display: flex;
   position: absolute;
   left: 80%;
-  top: 250px;
+  top: 200px;
   font-size: 20px;
 }
 
