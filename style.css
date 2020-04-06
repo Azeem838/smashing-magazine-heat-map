@@ -313,3 +313,23 @@ section.person-of-the-week h5 {
 }
 
 /* PERSON OF THE WEEK SECTION END */
+
+article.community-article  {
+  color: #333
+}
+
+article.community-article img {
+  margin-right: 2em;
+}
+
+article.community-article  p {
+  font-size: 20px;  
+}
+
+article.community-article a {
+  text-decoration: none; 
+}
+
+article.community-article div {
+  overflow: hidden;
+}
