@@ -114,12 +114,12 @@ main {
   padding-right: 10px;
 }
 
-article a {
+article.main-article a {
   color: inherit;
   text-decoration: none;
 }
 
-article {
+article.main-article {
   padding: 250px 50px;
   width: 50%;
 }
@@ -184,3 +184,39 @@ ul.hashtag li span sup:last-child {
   font-size: 14px;
 }
 /* MAIN Section END */
+
+section.latest-post {
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: #000;
+  background: #f6f3f2;
+}
+
+section.latest-post article:hover {
+  background-color: #fff;
+}
+
+section.latest-post a {
+  color: black;
+}
+
+section.latest-post article {
+  padding: 30px 40px 0;
+}
+
+.article-header {
+  font-size: 36px;
+}
+
+.article-header a p {
+  font-size: 26px;
+}
+
+.article-header a span:last-child {
+  padding: 1em 0;
+  display: block;
+}
+
+.article-header + p {
+  font-size: 20px;
+}
