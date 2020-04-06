@@ -8,6 +8,14 @@
   color: black;
 }
 
+.block-element {
+  display: block;
+}
+
+.align-center {
+  text-align: center;
+}
+
 .clearfix {
   clear: both;
 }
@@ -76,6 +84,18 @@ main {
   flex-wrap: wrap;
 }
 
+.flex-full {
+  width: 100%;
+}
+
+.flex-third {
+  width: 33%;
+}
+
+.flex-half {
+  width: 50%;
+}
+
 .float-txt {
   display: flex;
   position: relative;
@@ -121,7 +141,6 @@ article.main-article a {
 
 article.main-article {
   padding: 250px 50px;
-  width: 50%;
 }
 
 .article-image.float-left {
@@ -210,6 +229,7 @@ section.latest-post article {
 
 .article-header a p {
   font-size: 26px;
+  color: #000;
 }
 
 .article-header a span:last-child {
@@ -219,6 +239,7 @@ section.latest-post article {
 
 .article-header + p {
   font-size: 20px;
+  color: #000;
 }
 
 .left-red {
@@ -233,4 +254,8 @@ section.latest-post article {
 
 .join {
   color: white !important;
+}
+
+section.more-book {
+  background-color: #b9b9b9;
 }
