@@ -4,6 +4,10 @@
   float: left;
 }
 
+.text-black {
+  color: black;
+}
+
 .clearfix {
   clear: both;
 }
@@ -116,9 +120,21 @@ a span {
   font-size: 14px;
 }
 
-article a + div {
-  margin: 2em;
+ul.hashtag {
+  margin: 2em 0 7em;
   font-size: 16px;
+}
+
+ul.hashtag li {
+  float: left;
+  margin-right: 1em;
+}
+
+ul.hashtag li span sup:last-child {
+  position: relative;
+  top: -0.5em;
+  font-size: 0.7em;
+  font-weight: 700;
 }
 
 .fa-comment-alt {
