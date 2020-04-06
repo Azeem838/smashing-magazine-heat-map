@@ -202,6 +202,7 @@ ul.hashtag li span sup:last-child {
 .fa-comment-alt {
   font-size: 14px;
 }
+
 /* MAIN Section END */
 
 section.latest-post {
@@ -211,16 +212,16 @@ section.latest-post {
   background: #f6f3f2;
 }
 
+section.latest-post article {
+  padding: 30px 40px 0;
+}
+
 section.latest-post article:hover {
   background-color: #fff;
 }
 
 section.latest-post a {
   color: black;
-}
-
-section.latest-post article {
-  padding: 30px 40px 0;
 }
 
 .article-header {
@@ -237,7 +238,7 @@ section.latest-post article {
   display: block;
 }
 
-.article-header + p {
+header.article-header + p {
   font-size: 20px;
   color: #000;
 }
@@ -262,13 +263,13 @@ section.more-book {
   margin-top: 50px;
 }
 
-.more-book p {
+section.more-book p {
   font-size: 26px;
   margin: 0 20%;
   line-height: 40px;
 }
 
-.more-book a {
+section.more-book a {
   font-size: 52px;
   color: #000;
 }
@@ -285,3 +286,30 @@ section.more-book {
 .more-book * {
   padding: 10px;
 }
+
+/* PERSON OF THE WEEK SECTION START */
+.person-of-the-week {
+  color: #656565;
+  padding: 3em;
+}
+
+.person-of-the-week img {
+  float: left;
+  width: 13em;
+  border: 5px solid #d33a2c;
+  border-radius: 5px;
+  margin-right: 4em;
+}
+
+section.person-of-the-week p {
+  margin-top: 1.5em;
+  font-size: 21px;
+  line-height: 1.5;
+}
+
+section.person-of-the-week h5 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* PERSON OF THE WEEK SECTION END */
