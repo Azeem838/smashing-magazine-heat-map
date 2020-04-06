@@ -242,20 +242,46 @@ section.latest-post article {
   color: #000;
 }
 
-.left-red {
-  text-align: center;
-  color: white;
-  background-color: #595959;
-}
-
-.left-red * {
-  color: white;
-}
-
-.join {
-  color: white !important;
-}
-
 section.more-book {
-  background-color: #b9b9b9;
+  background-color: #ababab;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-book button {
+  margin-top: 30px;
+  width: 368px;
+  font-size: 27px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.more-book time {
+  font-size: 18px;
+  margin-top: 50px;
+}
+
+.more-book p {
+  font-size: 26px;
+  margin: 0 20%;
+  line-height: 40px;
+}
+
+.more-book a {
+  font-size: 52px;
+  color: #000;
+}
+
+.more-book h1 {
+  font-size: 52px;
+}
+
+.more-book img {
+  padding-top: 80px;
+  width: 800px;
+}
+
+.more-book * {
+  padding: 10px;
 }
