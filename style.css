@@ -186,7 +186,7 @@ ul.hashtag li span sup:last-child {
 /* MAIN Section END */
 
 section.latest-post {
-  display: flex;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   color: #000;
   background: #f6f3f2;
@@ -219,4 +219,18 @@ section.latest-post article {
 
 .article-header + p {
   font-size: 20px;
+}
+
+.left-red {
+  text-align: center;
+  color: white;
+  background-color: #595959;
+}
+
+.left-red * {
+  color: white;
+}
+
+.join {
+  color: white !important;
 }
