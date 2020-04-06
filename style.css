@@ -12,12 +12,16 @@
   clear: both;
 }
 
-/* General section END */
-
 body {
   font-family: "Comic Neue", cursive;
   color: white;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+/* General section END */
 
 /* Navigation Bar */
 
@@ -68,8 +72,46 @@ nav > * {
 /* MAIN Section Start */
 
 main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.float-txt {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.floating-text {
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+  padding: 12px 15px;
+  background: black;
+  display: inline;
+  box-shadow: 0 80px 60px -20px rgb(0, 0, 0);
+}
+
+.right-floating {
+  display: flex;
+  position: absolute;
+  left: 80%;
+  top: 250px;
+  font-size: 20px;
+}
+
+.red {
+  padding: 15px;
+  border: 1px solid white;
+  border-radius: 11px;
+}
+
+.right-floating img {
+  width: 50px;
+  padding-right: 10px;
 }
 
 article a {
@@ -78,7 +120,8 @@ article a {
 }
 
 article {
-  padding: 100px 50px;
+  padding: 250px 50px;
+  width: 50%;
 }
 
 .article-image.float-left {
