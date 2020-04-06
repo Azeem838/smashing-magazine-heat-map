@@ -1,3 +1,15 @@
+/* General section Start */
+
+.float-left {
+  float: left;
+}
+
+.clearfix {
+  clear: both;
+}
+
+/* General section END */
+
 body {
   font-family: "Comic Neue", cursive;
   color: white;
@@ -25,6 +37,10 @@ nav > * {
   margin: 10px;
 }
 
+.nav-items:hover {
+  color: #000;
+}
+
 .nav-items p {
   font-style: italic;
   text-align: center;
@@ -44,3 +60,68 @@ nav > * {
 .topics svg {
   padding-right: 10px;
 }
+
+/* MAIN Section Start */
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+article a {
+  color: inherit;
+  text-decoration: none;
+}
+
+article {
+  padding: 100px 50px;
+}
+
+.article-image.float-left {
+  width: 5em;
+  border: 4px solid #fff;
+  border-radius: 7px;
+}
+
+figcaption {
+  padding: 0.8em;
+}
+
+figcaption span {
+  font-style: italic;
+  font-weight: 100;
+}
+
+main article:nth-child(1) {
+  background-color: rgb(91, 91, 91);
+}
+
+main article:nth-child(2) {
+  background-color: rgb(97, 97, 97);
+}
+
+main article:nth-child(3) {
+  background-color: rgb(86, 86, 86);
+}
+
+main article:nth-child(4) {
+  background-color: rgb(91, 91, 91);
+}
+
+a p {
+  font-size: 41px;
+}
+
+a span {
+  font-size: 14px;
+}
+
+article a + div {
+  margin: 2em;
+  font-size: 16px;
+}
+
+.fa-comment-alt {
+  font-size: 14px;
+}
+/* MAIN Section END */
