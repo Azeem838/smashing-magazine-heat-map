@@ -451,3 +451,32 @@ article.community-article div {
   font-size: 25px;
   color: black;
 }
+
+/* Smashing Newsletter */
+
+.smash-newsletter {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 100px 77px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.smash-newsletter div {
+  display: flex;
+}
+
+.smash-newsletter a h2 {
+  font-size: 47px;
+  padding: 10px 0;
+}
+
+.smash-newsletter p {
+  font-size: 22px;
+}
+
+.smash-newsletter div {
+  border-radius: 5px;
+}
