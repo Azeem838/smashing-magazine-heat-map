@@ -458,6 +458,7 @@ article.community-article div {
   justify-content: center;
   align-content: center;
   align-items: center;
+  background: #595959;
 }
 
 .smash-newsletter div {
@@ -466,13 +467,42 @@ article.community-article div {
 
 .smash-newsletter a h2 {
   font-size: 47px;
-  padding: 10px 0;
+  padding: 30px 0 0 0;
+  color: white;
+  border-bottom: 2px solid white;
 }
 
 .smash-newsletter p {
   font-size: 22px;
+  margin: 31px 0;
+}
+
+.smash-newsletter img {
+  padding: 22px 0 44px 0;
+  width: 520px;
+  height: 557px;
 }
 
 .smash-newsletter div {
   border-radius: 5px;
+  width: 470px;
+  height: 50px;
+}
+
+.smash-newsletter div input {
+  font-size: 20px;
+  max-width: 60%;
+}
+
+.smash-newsletter div button {
+  font-size: 21px;
+}
+
+.smash-newsletter div button svg {
+  padding-left: 5px;
+}
+
+.smash-newsletter span {
+  font-size: 17px;
+  padding: 26px 0 50px 0;
 }
