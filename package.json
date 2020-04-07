@@ -1,0 +1,23 @@
+{
+  "name": "nytclone-mikael-hatem",
+  "version": "1.0.0",
+  "description": "New york times article page clone",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "npx stylelint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hatemswaileh/NYTClone-Mikael-Hatem.git"
+  },
+  "author": "Mikael & Hatem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hatemswaileh/NYTClone-Mikael-Hatem/issues"
+  },
+  "homepage": "https://github.com/hatemswaileh/NYTClone-Mikael-Hatem#readme",
+  "devDependencies": {
+    "stylelint": "^13.2.1",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
