@@ -29,7 +29,7 @@
 }
 
 body {
-  font-family: "Comic Neue", cursive;
+  font-family: "Comic Neue", cursive, serif;
   color: white;
 }
 
@@ -105,22 +105,18 @@ main {
 }
 
 .float-txt {
-  display: flex;
-  position: relative;
-  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 100%;
 }
 
 .floating-text {
   font-size: 40px;
-  position: absolute;
-  text-align: center;
-  color: white;
+  color: black;
   font-weight: 700;
-  padding: 12px 15px;
-  background: black;
-  display: inline;
-  box-shadow: 0 80px 60px -20px rgb(0, 0, 0);
-  top: 50px;
+  /* display: inline; */
+  background: white;
+  box-shadow: 0 62px 42px -10px rgb(0, 0, 0);
 }
 
 .right-floating {
