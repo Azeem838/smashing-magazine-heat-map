@@ -33,6 +33,10 @@ body {
   color: white;
 }
 
+.hidden {
+  display: none;
+}
+
 * {
   box-sizing: border-box;
 }
