@@ -580,7 +580,7 @@ img[src*="cat"] {
 
 footer {
   color: #fff;
-  background-color: #595959;
+  background: linear-gradient(to Right, #595959, #5b5b5b);
   padding: 5em;
   overflow: hidden;
 }
