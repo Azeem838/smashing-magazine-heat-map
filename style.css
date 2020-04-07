@@ -530,3 +530,50 @@ article.community-article div {
   position: absolute;
   top: 13px;
 }
+
+img[src*="cage"] {
+  float: left;
+}
+
+img[src*="cat"] {
+  float: right;
+}
+
+footer {
+  color: #fff;
+  background-color: #595959;
+  padding: 5em;
+  overflow: hidden;
+}
+
+footer ul {
+  margin: auto;
+}
+
+footer ul {
+  margin: 2em 0;
+}
+
+footer ul:nth-of-type(1) {
+  line-height: 1.5;
+  font-size: 23px;
+  margin-bottom: 2em;
+}
+
+footer ul:nth-of-type(1) > li:before {
+  content: "";
+  display: list-item;
+  position: absolute;
+}
+
+footer p {
+  margin: auto;
+  width: 26%;
+  line-height: 1.5;
+}
+
+footer ul li {
+  list-style: disc;
+  display: inline-block;
+  margin: 0 0.5em;
+}
