@@ -374,3 +374,48 @@ article.community-article a {
 article.community-article div {
   overflow: hidden;
 }
+
+/* Deisng Systems (Featured Smash Book) */
+
+.design-systems {
+  display: flex;
+  height: 500px;
+  padding: 55px 77px;
+  background: rgb(102, 102, 102);
+}
+
+.design-systems img {
+  width: 300px;
+}
+
+.design-systems div {
+  display: flex;
+  flex-direction: column;
+}
+
+.design-systems div h4 {
+  font-size: 17px;
+}
+
+.design-systems div h2 {
+  font-size: 47px;
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+}
+
+.design-systems div p {
+  font-size: 22px;
+  margin: 30px 0;
+}
+
+.design-systems div button {
+  font-size: 27px;
+  margin-top: 30px;
+  padding: 20px;
+  width: 300px;
+}
+
+.design-systems div button svg {
+  padding-left: 10px;
+}
