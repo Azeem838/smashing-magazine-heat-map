@@ -506,3 +506,27 @@ article.community-article div {
   font-size: 17px;
   padding: 26px 0 50px 0;
 }
+
+/* See all articles text */
+
+.see-all-articles {
+  display: flex;
+  font-size: 16px;
+  padding: 22px 0 110px 0;
+  margin: auto;
+}
+
+.see-all-articles a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0 10px 0;
+  border-bottom: 4px solid #000;
+  position: relative;
+}
+
+.see-all-articles svg {
+  font-size: 40px;
+  padding: 0 0 10px 3px;
+  position: absolute;
+  top: 13px;
+}
