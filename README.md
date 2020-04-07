@@ -1,73 +1,46 @@
-# Project Name
+# Design Teardown - Heatmap of the Smash magazine homepage
 
-> One paragraph statement about the project.
+> This project was to create a Heatmap of the smahing magazine homepage using grayscale coloring.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/smash-screenshot.png)
 
-Additional description about the project and its features.
+This project includes the following:
+
+1.  Heatmap of the smashing magazine homepage.
+2.  Grayscale colors identified with the help of online tools
+3.  Elements aligned using flexbox, grid, and positioning
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML5 & CSS
+- Font Awesome Icons
+- RGB Color to Grayscale online convertor
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
-
-## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+[Live Demo Link](https://rawcdn.githack.com/Azeem838/smashing-magazine-heat-map/7c771058376cfa45574f2deb1c1789d3a76ef13a/index.html)
 
 ## Authors
 
-👤 **Author1**
+👤 **Azeem Ahmed**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@Azeem838](https://github.com/Azeem838)
 
-👤 **Author2**
+👤 **Mikael Araya**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@mikearaya](https://github.com/mikearaya)
+- Twitter: [@mikearaya12](https://twitter.com/mikearaya12)
+- Linkedin: [linkedin](https://linkedin.com/in/mikael-araya)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Azeem838/smashing-magazine-heat-map/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## 📝 License
 
