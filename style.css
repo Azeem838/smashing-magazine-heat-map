@@ -511,14 +511,14 @@ footer ul {
 }
 
 .guides div ul {
-  line-height: 25px;
+  color: #000;
   padding-left: 44px;
   list-style-type: disc;
 }
 
-.guides div ul a li {
+.guides div ul li {
   padding: 10px 0;
-  font-size: 25px;
+  font-size: 1.2em;
   color: black;
 }
 
