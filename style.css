@@ -65,6 +65,22 @@ nav > * {
   color: #000;
 }
 
+a p {
+  font-size: 41px;
+}
+
+footer p {
+  margin: auto;
+  width: 26%;
+  line-height: 1.5;
+}
+
+footer ul li {
+  list-style: disc;
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
 .nav-items p {
   font-style: italic;
   text-align: center;
@@ -102,6 +118,13 @@ main {
   padding: 20px;
 }
 
+.see-all-articles svg {
+  font-size: 40px;
+  padding: 0 0 10px 3px;
+  position: absolute;
+  top: 13px;
+}
+
 .flex-third a svg {
   margin: 100px 0 50px 0;
 }
@@ -120,7 +143,6 @@ main {
   font-size: 40px;
   color: black;
   font-weight: 700;
-  /* display: inline; */
   background: white;
   box-shadow: 0 62px 42px -10px rgb(0, 0, 0);
 }
@@ -142,6 +164,14 @@ main {
 .right-floating img {
   width: 50px;
   padding-right: 10px;
+}
+
+.see-all-articles a {
+  text-decoration: none;
+  color: #000;
+  padding: 20px 0 10px 0;
+  border-bottom: 4px solid #000;
+  position: relative;
 }
 
 article.main-article a {
@@ -182,10 +212,6 @@ main article:nth-of-type(3) {
 
 main article:nth-of-type(4) {
   background-color: rgb(91, 91, 91);
-}
-
-a p {
-  font-size: 41px;
 }
 
 a span {
@@ -238,9 +264,21 @@ section.latest-post a {
   font-size: 36px;
 }
 
+.smash-newsletter p {
+  text-align: center;
+  font-size: 22px;
+  margin: 31px 0;
+}
+
 .article-header a p {
   font-size: 26px;
   color: #000;
+}
+
+.smash-newsletter span {
+  text-align: center;
+  font-size: 17px;
+  padding: 26px 0 50px 0;
 }
 
 .article-header a span:last-child {
@@ -357,10 +395,22 @@ section.person-of-the-week h5 {
 
 /* PERSON OF THE WEEK SECTION END */
 
+.design-systems img {
+  width: 200px;
+  position: relative;
+  top: -90px;
+}
+
 article.community-article {
   color: #333;
   margin: 60px 0;
   padding: 20px;
+}
+
+.smash-newsletter img {
+  padding: 22px 0 44px 0;
+  width: 520px;
+  height: 557px;
 }
 
 article.community-article img {
@@ -375,8 +425,23 @@ article.community-article a {
   text-decoration: none;
 }
 
+.design-systems div {
+  display: flex;
+  flex-direction: column;
+}
+
+.smash-newsletter div {
+  display: flex;
+  width: 470px;
+  height: 50px;
+}
+
 article.community-article div {
   overflow: hidden;
+}
+
+.design-systems div h4 {
+  font-size: 17px;
 }
 
 article.community-article div h4 {
@@ -390,21 +455,6 @@ article.community-article div h4 {
   height: 420px;
   padding: 55px 77px 55px 77px;
   background: rgb(102, 102, 102);
-}
-
-.design-systems img {
-  width: 200px;
-  position: relative;
-  top: -90px;
-}
-
-.design-systems div {
-  display: flex;
-  flex-direction: column;
-}
-
-.design-systems div h4 {
-  font-size: 17px;
 }
 
 .design-systems div h2 {
@@ -451,6 +501,11 @@ article.community-article div h4 {
   margin-bottom: 30px;
 }
 
+footer ul {
+  margin: auto;
+  margin: 2em 0;
+}
+
 .guides div ul {
   line-height: 25px;
   padding-left: 44px;
@@ -476,32 +531,11 @@ article.community-article div h4 {
   background: #595959;
 }
 
-.smash-newsletter div {
-  display: flex;
-}
-
 .smash-newsletter a h2 {
   font-size: 47px;
   padding: 30px 0 0 0;
   color: white;
   border-bottom: 2px solid white;
-}
-
-.smash-newsletter p {
-  text-align: center;
-  font-size: 22px;
-  margin: 31px 0;
-}
-
-.smash-newsletter img {
-  padding: 22px 0 44px 0;
-  width: 520px;
-  height: 557px;
-}
-
-.smash-newsletter div {
-  width: 470px;
-  height: 50px;
 }
 
 .smash-newsletter div input {
@@ -521,12 +555,6 @@ article.community-article div h4 {
   padding-left: 5px;
 }
 
-.smash-newsletter span {
-  text-align: center;
-  font-size: 17px;
-  padding: 26px 0 50px 0;
-}
-
 /* See all articles text */
 
 .see-all-articles {
@@ -534,21 +562,6 @@ article.community-article div h4 {
   font-size: 16px;
   padding: 22px 0 110px 0;
   margin: auto;
-}
-
-.see-all-articles a {
-  text-decoration: none;
-  color: #000;
-  padding: 20px 0 10px 0;
-  border-bottom: 4px solid #000;
-  position: relative;
-}
-
-.see-all-articles svg {
-  font-size: 40px;
-  padding: 0 0 10px 3px;
-  position: absolute;
-  top: 13px;
 }
 
 img[src*="cage"] {
@@ -566,34 +579,14 @@ footer {
   overflow: hidden;
 }
 
-footer ul {
-  margin: auto;
-}
-
-footer ul {
-  margin: 2em 0;
-}
-
 footer ul:nth-of-type(1) {
   line-height: 1.5;
   font-size: 23px;
   margin-bottom: 2em;
 }
 
-footer ul:nth-of-type(1) > li:before {
+footer ul:nth-of-type(1) > li::before {
   content: "";
   display: list-item;
   position: absolute;
-}
-
-footer p {
-  margin: auto;
-  width: 26%;
-  line-height: 1.5;
-}
-
-footer ul li {
-  list-style: disc;
-  display: inline-block;
-  margin: 0 0.5em;
 }
