@@ -379,13 +379,13 @@ article.community-article div {
 
 .design-systems {
   display: flex;
-  height: 500px;
+  height: 380px;
   padding: 55px 77px;
   background: rgb(102, 102, 102);
 }
 
 .design-systems img {
-  width: 300px;
+  width: 200px;
 }
 
 .design-systems div {
@@ -418,4 +418,36 @@ article.community-article div {
 
 .design-systems div button svg {
   padding-left: 10px;
+}
+
+/* Guides Section */
+
+.guides {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  margin: 50px 77px;
+  grid-gap: 50px;
+}
+
+.guides div h6 {
+  font-size: 18px;
+  margin-bottom: 9px;
+}
+
+.guides div > h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.guides div ul {
+  line-height: 25px;
+  padding-left: 44px;
+  list-style-type: disc;
+}
+
+.guides div ul a li {
+  padding: 10px 0;
+  font-size: 25px;
+  color: black;
 }
