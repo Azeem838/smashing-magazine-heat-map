@@ -1,7 +1,7 @@
 /* General section Start */
 
 .separator {
-  padding: 3em 0;
+  padding: 3em 0 5em 0;
 }
 
 .float-left {
@@ -98,6 +98,12 @@ main {
 
 .flex-third {
   width: 33%;
+  line-height: 35px;
+  padding: 20px;
+}
+
+.flex-third a svg {
+  margin: 100px 0 50px 0;
 }
 
 .flex-half {
@@ -144,7 +150,7 @@ article.main-article a {
 }
 
 article.main-article {
-  padding: 250px 50px;
+  padding: 150px 50px 100px 50px;
 }
 
 .article-image.float-left {
@@ -333,7 +339,7 @@ section.advertisment span:last-child {
 .person-of-the-week img {
   float: left;
   width: 13em;
-  border: 5px solid #d33a2c;
+  border: 5px solid #595959;
   border-radius: 5px;
   margin-right: 4em;
 }
@@ -353,6 +359,8 @@ section.person-of-the-week h5 {
 
 article.community-article {
   color: #333;
+  margin: 60px 0;
+  padding: 20px;
 }
 
 article.community-article img {
@@ -371,17 +379,23 @@ article.community-article div {
   overflow: hidden;
 }
 
+article.community-article div h4 {
+  font-size: 33px;
+}
+
 /* Deisng Systems (Featured Smash Book) */
 
 .design-systems {
   display: flex;
-  height: 380px;
-  padding: 55px 77px;
+  height: 420px;
+  padding: 55px 77px 55px 77px;
   background: rgb(102, 102, 102);
 }
 
 .design-systems img {
   width: 200px;
+  position: relative;
+  top: -90px;
 }
 
 .design-systems div {
@@ -410,6 +424,7 @@ article.community-article div {
   margin-top: 30px;
   padding: 20px;
   width: 300px;
+  border-radius: 10px;
 }
 
 .design-systems div button svg {
@@ -427,12 +442,12 @@ article.community-article div {
 }
 
 .guides div h6 {
-  font-size: 18px;
+  font-size: 22px;
   margin-bottom: 9px;
 }
 
 .guides div > h2 {
-  font-size: 30px;
+  font-size: 27px;
   margin-bottom: 30px;
 }
 
@@ -473,6 +488,7 @@ article.community-article div {
 }
 
 .smash-newsletter p {
+  text-align: center;
   font-size: 22px;
   margin: 31px 0;
 }
@@ -484,17 +500,20 @@ article.community-article div {
 }
 
 .smash-newsletter div {
-  border-radius: 5px;
   width: 470px;
   height: 50px;
 }
 
 .smash-newsletter div input {
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
   font-size: 20px;
   max-width: 60%;
 }
 
 .smash-newsletter div button {
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
   font-size: 21px;
 }
 
@@ -503,6 +522,7 @@ article.community-article div {
 }
 
 .smash-newsletter span {
+  text-align: center;
   font-size: 17px;
   padding: 26px 0 50px 0;
 }
