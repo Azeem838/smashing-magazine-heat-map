@@ -65,8 +65,10 @@ nav > * {
   margin: 10px;
 }
 
-.nav-items:hover {
+.nav-items:hover,
+a:hover {
   color: #000;
+  cursor: pointer;
 }
 
 a p {
